@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wheel Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>!أحصل على عيديتك الآن</h1>
+            <h2>دور العجلة لكي تربح</h2>
+        </div>
+        <div class="wheel-container">
+            <div class="arrow"></div>
+
+            <div id="wheel" class="wheel"></div> 
+            <button class="button" id="spin-button">دور العجلة</button>
+        </div>
+        <div id="prize-display" class="hidden">
+            <p id="prize-text"></p>
+            <img id="prize-image" src="md.webp" width="50" style="display: none;">
+        </div>
+    </div>
+    
+    <script src="spin.js"></script>  
+    <script src="prizes.js"></script>  
+</body>
+</html>
